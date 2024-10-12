@@ -1,0 +1,64 @@
+body {
+    background-color: #efe2ba;
+}
+
+button:hover {
+    color: #21aa3f;
+}
+
+
+.my-picture {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 200px;
+    padding-top: 3%;
+
+}
+
+button {
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-right: 1.5%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    font-size: x-large;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-left: -2%;
+    font-size: x-large;
+}
+
+.message-me {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
