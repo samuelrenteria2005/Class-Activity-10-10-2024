@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
  <body>
+     <script src="script.js"></script>
      <div class="topnav">
             <ul>
                 <button>About</button></li>
                 <button>Projects</button>
             </ul> 
     </div>
-        <div class = "my-picture">
-        <img src="IMG_6578.jpg"> 
+    <script src="personal-website.js"></script>
+        <div class="my-picture" id="myPicture">
+            <img src="IMG_6578.jpg"> 
         </div>
         <div class="about">Hello I am Samuel 🤓</div>
         <div class="resume">
@@ -22,14 +24,23 @@
         </div>
         <div class="social-media">
             <ul>
-                <li><a href='https://www.linkedin.com/in/samuel-renteria/'>LinkedIn</a></li>
+                <li id="linkedIn"><a href='https://www.linkedin.com/in/samuel-renteria/'>LinkedIn</a></li>
                 <li><a href='https://github.com/samuelrenteria2005'>Github</a></li>
                 <li>FaceBook</li>
                 <li><a href='https://www.instagram.com/sammywithay13/'>Instagram</a></li>
             </ul>
         </div>
-        <div class="message-me">
-            <button>Message Me!</button>
+        <script src="personal-website.js"></script>
+        <div class="message-me" id="messageMe">
+            <div class="messageText" id="messageMe">Message Me!</div>
         </div>
+        <div class="messages" id="messages"></div>
+        <form name="message" onsubmit="handleSubmit(message)">
+            <input type="text" id="messageInput" name="messageInput" required>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        
+
 </body>
 </html>

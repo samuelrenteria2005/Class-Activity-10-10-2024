@@ -62,3 +62,17 @@ img {
 li {
     list-style: none;
 }
+
+.messageText {
+    font-size: x-large;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+
+.messageMe {
+    width: 200px;
+}
